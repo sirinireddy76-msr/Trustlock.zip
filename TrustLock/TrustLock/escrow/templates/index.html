@@ -1,0 +1,132 @@
+{% load static %}
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>
+
+TrustLock |
+Secure Freelance Escrow
+
+</title>
+
+<link rel="stylesheet"
+href="{% static 'css/style.css' %}">
+
+<link rel="preconnect"
+href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+rel="stylesheet">
+
+</head>
+
+<body>
+
+{% include 'partials/navbar.html' %}
+
+<main>
+
+<section class="hero">
+
+<div class="container hero-grid">
+
+<div class="hero-content">
+
+<span class="badge">
+
+🚀 Web3 Escrow Platform
+
+</span>
+
+<h1>
+
+Trust Every Transaction.
+
+<br>
+
+Deliver With Confidence.
+
+</h1>
+
+<p>
+
+A secure escrow platform that protects
+clients and freelancers through
+smart payment workflows,
+automatic releases,
+and transparent dispute resolution.
+
+</p>
+
+<div class="hero-buttons">
+
+<a href="#" class="btn-primary">
+
+Create Escrow
+
+</a>
+
+<a href="#" class="btn-outline">
+
+Watch Demo
+
+</a>
+
+</div>
+
+</div>
+
+<div class="hero-image">
+
+<div class="glass-card">
+
+<h3>
+
+Funds Locked
+
+</h3>
+
+<h2>
+
+100 ADA
+
+</h2>
+
+<p>
+
+Protected by TrustLock
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+</main>
+
+{% include 'partials/footer.html' %}
+
+<script
+src="{% static 'js/app.js' %}">
+</script>
+
+</body>
+
+</html>
